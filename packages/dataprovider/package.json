@@ -26,7 +26,8 @@
     "build:es": "rimraf ./lib-es && tsc --project tsconfig.json",
     "generate:test": "yarn generate:test:prisma && yarn generate:test:nexus",
     "generate:test:prisma": "yarn prisma generate --schema test-data/datamodel.prisma",
-    "generate:test:nexus": "yarn ts-node --project ../../tsconfig-test.json  --transpile-only test-data/buildTestSchemaNexus.ts"
+    "generate:test:nexus": "yarn ts-node --project ../../tsconfig-test.json  --transpile-only test-data/buildTestSchemaNexus.ts",
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "prisma": "3.2.1",
