@@ -1,5 +1,5 @@
 {
-  "name": "@ra-data-prisma/dataprovider",
+  "name": "ra-data-prisma-typegraphql",
   "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Marco Wettstein <maw@panter.ch>",
